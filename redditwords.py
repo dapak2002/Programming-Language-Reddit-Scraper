@@ -1,6 +1,13 @@
 import praw
 import string
 import csv
+import datetime
+
+# Get the current date and time
+now = datetime.datetime.now()
+
+# Print the timestamp
+print(f"Timestamp: {now}")
 
 # Replace YOUR_CLIENT_ID and YOUR_CLIENT_SECRET with your Reddit API key and secret
 reddit = praw.Reddit(client_id="YOUR_CLIENT_ID", client_secret="YOUR_CLIENT_SECRET", user_agent="my_user_agent")
