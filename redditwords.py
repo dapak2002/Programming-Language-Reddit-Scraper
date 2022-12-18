@@ -3,7 +3,7 @@ import string
 import csv
 
 # Replace YOUR_CLIENT_ID and YOUR_CLIENT_SECRET with your Reddit API key and secret
-reddit = praw.Reddit(client_id="6CgeaqPA-Xavj7sLYQaTAg", client_secret="rFqgr4M5Hie1t1HjRC6fpPxQ5wQCzg", user_agent="my_user_agent")
+reddit = praw.Reddit(client_id="YOUR_CLIENT_ID", client_secret="YOUR_CLIENT_SECRET", user_agent="my_user_agent")
 
 subreddit_names = ["java" , "typescript", "javascript", "php" , "ruby" , "python", "golang" , "csharp" , "cpp" , "c_programming"]  # List of subreddit names to process
 
