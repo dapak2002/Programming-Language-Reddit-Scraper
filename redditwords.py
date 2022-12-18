@@ -31,7 +31,7 @@ for subreddit_name in subreddit_names:
                     frequency[word] = 1
 
     # Remove certain words from the frequency dictionary
-    stop_words = [ "really" , "something" , "should" , "make" , "been" , "help" , "other" , "please" , "here" , "which" , "using" , "about" , "into" , "know" , "where" , "like", "when" , "only" , "also" , "used" , "there" , "golang" , "python" , "string" , "this", "have" , "with" , "your", "want", "that" , "need" , "just", "will" ,"from" , "some" , "within" , "does" , "would", "what" , "more" , "java" , "typescript", "javascript", "php" , "ruby" , "python", "golang" , "csharp" , "cpp" , "c_programming"]  # Add any other words you want to remove
+    stop_words = [ "tried" , "instead" , "really" , "something" , "should" , "make" , "been" , "help" , "other" , "please" , "here" , "which" , "using" , "about" , "into" , "know" , "where" , "like", "when" , "only" , "also" , "used" , "there" , "golang" , "python" , "string" , "this", "have" , "with" , "your", "want", "that" , "need" , "just", "will" ,"from" , "some" , "within" , "does" , "would", "what" , "more" , "java" , "typescript", "javascript", "php" , "ruby" , "python", "golang" , "csharp" , "cpp" , "c_programming"]  # Add any other words you want to remove
     for word in stop_words:
         if word in frequency:
             del frequency[word]
