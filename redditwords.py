@@ -12,7 +12,7 @@ print(f"Timestamp: {now}")
 # Replace YOUR_CLIENT_ID and YOUR_CLIENT_SECRET with your Reddit API key and secret
 reddit = praw.Reddit(client_id="YOUR_CLIENT_ID", client_secret="YOUR_CLIENT_SECRET", user_agent="my_user_agent")
 
-subreddit_names = ["java" , "typescript", "javascript", "php" , "ruby" , "python", "golang" , "csharp" , "cpp" , "c_programming"]  # List of subreddit names to process
+subreddit_names = ["python" , "java" , "cpp" , "golang" , "javascript" , "typescript" , "php" , "ruby", "c_programming" , "csharp"]  # List of subreddit names to process
 
 for subreddit_name in subreddit_names:
     subreddit = reddit.subreddit(subreddit_name)  # Get the subreddit
